@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.banner {
+    background-color: #0476df;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.bubble-one {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    background: #0dc5d0;
+    filter: blur(10px);
+    border-radius: 50%;
+}
+
+.bubble-two {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+    top: 0;
+    background: #942cb9;
+    filter: blur(20px);
+    border-radius: 50%;
+}
+
+.bubble-three {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    bottom: 0;
+    background: #040e63;
+    filter: blur(30px);
+    border-radius: 50%;
+}
+
+.bubble-four {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 70%;
+    top: 70%;
+    background: #fdee15;
+    filter: blur(40px);
+    border-radius: 50%;
+}
